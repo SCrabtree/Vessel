@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		140ADE5E1B73481900381AEF /* QuoteController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 140ADE5D1B73481900381AEF /* QuoteController.swift */; };
 		14653C2E1B7341E800B491DB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14653C2D1B7341E800B491DB /* AppDelegate.swift */; };
 		14653C301B7341E800B491DB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14653C2F1B7341E800B491DB /* ViewController.swift */; };
 		14653C331B7341E800B491DB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14653C311B7341E800B491DB /* Main.storyboard */; };
@@ -14,6 +15,7 @@
 		14653C381B7341E800B491DB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14653C361B7341E800B491DB /* LaunchScreen.storyboard */; };
 		14653C431B7341E800B491DB /* VesselTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14653C421B7341E800B491DB /* VesselTests.swift */; };
 		14653C4E1B7341E800B491DB /* VesselUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14653C4D1B7341E800B491DB /* VesselUITests.swift */; };
+		14653C5C1B7343D300B491DB /* TimerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14653C5B1B7343D300B491DB /* TimerController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		140ADE5D1B73481900381AEF /* QuoteController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = QuoteController.swift; path = ../QuoteController.swift; sourceTree = "<group>"; };
 		14653C2A1B7341E800B491DB /* Vessel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Vessel.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		14653C2D1B7341E800B491DB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		14653C2F1B7341E800B491DB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +50,7 @@
 		14653C491B7341E800B491DB /* VesselUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VesselUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		14653C4D1B7341E800B491DB /* VesselUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VesselUITests.swift; sourceTree = "<group>"; };
 		14653C4F1B7341E800B491DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		14653C5B1B7343D300B491DB /* TimerController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimerController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +103,8 @@
 			children = (
 				14653C2D1B7341E800B491DB /* AppDelegate.swift */,
 				14653C2F1B7341E800B491DB /* ViewController.swift */,
+				14653C5B1B7343D300B491DB /* TimerController.swift */,
+				140ADE5D1B73481900381AEF /* QuoteController.swift */,
 				14653C311B7341E800B491DB /* Main.storyboard */,
 				14653C341B7341E800B491DB /* Assets.xcassets */,
 				14653C361B7341E800B491DB /* LaunchScreen.storyboard */,
@@ -257,6 +263,8 @@
 			files = (
 				14653C301B7341E800B491DB /* ViewController.swift in Sources */,
 				14653C2E1B7341E800B491DB /* AppDelegate.swift in Sources */,
+				140ADE5E1B73481900381AEF /* QuoteController.swift in Sources */,
+				14653C5C1B7343D300B491DB /* TimerController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -481,6 +489,7 @@
 				14653C541B7341E800B491DB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		14653C551B7341E800B491DB /* Build configuration list for PBXNativeTarget "VesselTests" */ = {
 			isa = XCConfigurationList;
@@ -489,6 +498,7 @@
 				14653C571B7341E800B491DB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		14653C581B7341E800B491DB /* Build configuration list for PBXNativeTarget "VesselUITests" */ = {
 			isa = XCConfigurationList;
@@ -497,6 +507,7 @@
 				14653C5A1B7341E800B491DB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
